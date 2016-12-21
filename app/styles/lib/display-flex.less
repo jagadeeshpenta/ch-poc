@@ -1,0 +1,17 @@
+.display-flex () {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -moz-flexbox;
+    display: flex;
+}
+
+.flex-direction (@direction) {
+    -webkit-flex-direction: @direction;
+       -moz-flex-direction: @direction;
+        -ms-flex-direction: @direction;
+            flex-direction: @direction
+}
+
+.flex (@basis: auto, @grow: 0, @shrink: 0) {
+    flex: @basis @grow @shrink;
+}

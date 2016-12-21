@@ -27,9 +27,10 @@
 </head>
 
 <body>
-    <div class="page">
+    <div class="page flex-container">
         <global-header></global-header>
         <div ng-view></div>
+        <global-footer></global-footer>
     </div>
 
     <script src="vendor/bower_components/jquery/dist/jquery.js"></script>
@@ -41,6 +42,7 @@
     <script src="app.js"></script>
     
     <script src="components/global-header/global-header.comp.js"></script>
+    <script src="components/global-footer/global-footer.comp.js"></script>
 
     <script src="pages/state-page/state-page.component.js"></script>
 </body>
