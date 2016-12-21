@@ -1,0 +1,23 @@
+{
+  "name": "ch-poc",
+  "description": "POC on CH",
+  "main": "index.js",
+  "authors": [
+    "Muralikrishna Tottimpudi <mura.tottimpudi@homes.com>"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/muralikrishnat/ch-poc",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "less": "^2.7.1",
+    "angular": "^1.6.0",
+    "angular-route": "^1.6.0"
+  }
+}

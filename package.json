@@ -1,0 +1,22 @@
+{
+  "name": "ch-poc",
+  "version": "1.0.0",
+  "description": "POC on CH",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/muralikrishnat/ch-poc.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/muralikrishnat/ch-poc/issues"
+  },
+  "homepage": "https://github.com/muralikrishnat/ch-poc#readme",
+  "devDependencies": {
+    "node-static": "^0.7.9"
+  }
+}
